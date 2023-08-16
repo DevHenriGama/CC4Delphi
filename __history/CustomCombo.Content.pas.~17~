@@ -1,0 +1,96 @@
+unit CustomCombo.Content;
+
+interface
+
+uses
+  FMX.Objects, CustomCombo.Interfaces, FMX.Layouts,
+  CustomCombo.Container, FMX.Edit, System.Classes;
+
+type
+  TCustomComboContent = class(TInterfacedObject, ICustomComboContent)
+  private
+    FContainer: TCustomComboContainer;
+    FContent: TVertScrollBox;
+    FItem: ICustomComboItem;
+    procedure Initialize;
+    procedure Clear;
+  public
+    constructor Create(aInstance: TCustomComboContainer);
+    destructor Destroy; override;
+    procedure populateList;
+
+  end;
+
+implementation
+
+uses
+  FMX.Types, CustomCombo.Item, FMX.Dialogs, System.SysUtils,
+  System.Generics.Collections;
+
+{ TCustomComboContent }
+
+procedure TCustomComboContent.Clear;
+var
+  I: Integer;
+  aCount: Integer;
+begin
+  aCount := FContent.Content.ChildrenCount;
+
+  if aCount = 0 then
+    Exit;
+
+  FContent.BeginUpdate;
+  try
+    for I := Pred(aCount) downto 0 do
+    begin
+      if FContent.Content.Children[I] is TRectangle then
+        TRectangle(FContent.Content.Children[I]).DisposeOf;
+    end;
+  finally
+    FContent.EndUpdate;
+  end;
+
+end;
+
+constructor TCustomComboContent.Create(aInstance: TCustomComboContainer);
+begin
+  FContainer := aInstance;
+  FContent := TVertScrollBox.Create(nil);
+  FItem := TCustomComboItem.Create(Self);
+  Initialize;
+end;
+
+destructor TCustomComboContent.Destroy;
+begin
+   FContent.Free;
+  inherited;
+end;
+
+
+procedure TCustomComboContent.Initialize;
+begin
+  with FContent do
+  begin
+    Parent := FContainer.Container;
+    Align := TAlignLayout.Client;
+  end;
+
+end;
+
+procedure TCustomComboContent.populateList;
+var
+  I: Integer; FTemp : TList<String>;
+begin
+  Clear;
+
+  FTemp := FContainer.Combo.List;
+
+  if FContent.Content.ChildrenCount = 0 then
+  begin
+    for I := 0 to Pred(FTemp.Count) do
+      FContent.AddObject(FItem.Item(FTemp[I]));
+  end;
+
+end;
+
+end.

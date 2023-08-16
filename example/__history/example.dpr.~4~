@@ -1,0 +1,44 @@
+program example;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  useExample in 'useExample.pas' {Form1},
+  CustomCombo.Container in '..\CustomCombo.Container.pas',
+  CustomCombo.ContainerProps in '..\CustomCombo.ContainerProps.pas',
+  CustomCombo.Content in '..\CustomCombo.Content.pas',
+  CustomCombo.Interfaces in '..\CustomCombo.Interfaces.pas',
+  CustomCombo.Item in '..\CustomCombo.Item.pas',
+  CustomCombo in '..\CustomCombo.pas',
+  DataSet.Serialize.Config in '..\modules\dataset-serialize\src\DataSet.Serialize.Config.pas',
+  DataSet.Serialize.Consts in '..\modules\dataset-serialize\src\DataSet.Serialize.Consts.pas',
+  DataSet.Serialize.Export in '..\modules\dataset-serialize\src\DataSet.Serialize.Export.pas',
+  DataSet.Serialize.Import in '..\modules\dataset-serialize\src\DataSet.Serialize.Import.pas',
+  DataSet.Serialize.Language in '..\modules\dataset-serialize\src\DataSet.Serialize.Language.pas',
+  DataSet.Serialize in '..\modules\dataset-serialize\src\DataSet.Serialize.pas',
+  DataSet.Serialize.UpdatedStatus in '..\modules\dataset-serialize\src\DataSet.Serialize.UpdatedStatus.pas',
+  DataSet.Serialize.Utils in '..\modules\dataset-serialize\src\DataSet.Serialize.Utils.pas',
+  RESTRequest4D in '..\modules\restrequest4delphi\src\RESTRequest4D.pas',
+  RESTRequest4D.Request.Adapter.Contract in '..\modules\restrequest4delphi\src\RESTRequest4D.Request.Adapter.Contract.pas',
+  RESTRequest4D.Request.Client in '..\modules\restrequest4delphi\src\RESTRequest4D.Request.Client.pas',
+  RESTRequest4D.Request.Contract in '..\modules\restrequest4delphi\src\RESTRequest4D.Request.Contract.pas',
+  RESTRequest4D.Request.FPHTTPClient in '..\modules\restrequest4delphi\src\RESTRequest4D.Request.FPHTTPClient.pas',
+  RESTRequest4D.Request.Indy in '..\modules\restrequest4delphi\src\RESTRequest4D.Request.Indy.pas',
+  RESTRequest4D.Request.NetHTTP in '..\modules\restrequest4delphi\src\RESTRequest4D.Request.NetHTTP.pas',
+  RESTRequest4D.Request.Synapse in '..\modules\restrequest4delphi\src\RESTRequest4D.Request.Synapse.pas',
+  RESTRequest4D.Response.Client in '..\modules\restrequest4delphi\src\RESTRequest4D.Response.Client.pas',
+  RESTRequest4D.Response.Contract in '..\modules\restrequest4delphi\src\RESTRequest4D.Response.Contract.pas',
+  RESTRequest4D.Response.FPHTTPClient in '..\modules\restrequest4delphi\src\RESTRequest4D.Response.FPHTTPClient.pas',
+  RESTRequest4D.Response.Indy in '..\modules\restrequest4delphi\src\RESTRequest4D.Response.Indy.pas',
+  RESTRequest4D.Response.NetHTTP in '..\modules\restrequest4delphi\src\RESTRequest4D.Response.NetHTTP.pas',
+  RESTRequest4D.Response.Synapse in '..\modules\restrequest4delphi\src\RESTRequest4D.Response.Synapse.pas',
+  RESTRequest4D.Utils in '..\modules\restrequest4delphi\src\RESTRequest4D.Utils.pas',
+  DataSet.Serialize.Adapter.RESTRequest4D in '..\modules\dataset-serialize-adapter-restrequest4delphi\src\DataSet.Serialize.Adapter.RESTRequest4D.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

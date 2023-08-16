@@ -1,0 +1,21 @@
+program example;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  useExample in 'useExample.pas' {Form1},
+  CustomCombo.Container in '..\CustomCombo.Container.pas',
+  CustomCombo.ContainerProps in '..\CustomCombo.ContainerProps.pas',
+  CustomCombo.Content in '..\CustomCombo.Content.pas',
+  CustomCombo.Instance in '..\CustomCombo.Instance.pas',
+  CustomCombo.Interfaces in '..\CustomCombo.Interfaces.pas',
+  CustomCombo.Item in '..\CustomCombo.Item.pas',
+  CustomCombo in '..\CustomCombo.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

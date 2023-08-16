@@ -1,0 +1,96 @@
+unit CustomCombo.ContainerProps;
+
+interface
+
+uses
+  System.UITypes, FMX.Objects;
+
+type
+  TCustomContainerProps = class
+  private
+    FColor: TAlphaColor;
+    FHeight: Single;
+    FStrokeColor: TAlphaColor;
+    FStrokeThickness: Integer;
+  public
+    class function New: TCustomContainerProps;
+    function Fill(aColor: TAlphaColor): TCustomContainerProps; overload;
+    function Fill: TAlphaColor; overload;
+    function Height(aHeight: Single): TCustomContainerProps; overload;
+    function Height: Single; overload;
+    function BorderColor(aColor: TAlphaColor): TCustomContainerProps; overload;
+    function BorderColor: TAlphaColor; overload;
+    function Border(aThickness: Integer) : TCustomContainerProps; overload;
+    function Border: Integer; overload;
+    function Default : TCustomContainerProps;
+  end;
+
+var
+  CustomContainerProps: TCustomContainerProps;
+
+implementation
+
+{ TCustomContainerProps }
+
+function TCustomContainerProps.Fill(aColor: TAlphaColor)
+  : TCustomContainerProps;
+begin
+  Result := Self;
+  FColor := aColor;
+end;
+
+function TCustomContainerProps.Fill: TAlphaColor;
+begin
+Result := FColor;
+end;
+
+function TCustomContainerProps.Default: TCustomContainerProps;
+begin
+  FColor := $FFFFFFFF;
+  FHeight := 120;
+  FStrokeColor := $FF000000;
+  FStrokeThickness  := 1;
+  Result := Self;
+end;
+
+function TCustomContainerProps.Height: Single;
+begin
+Result := FHeight;
+end;
+
+function TCustomContainerProps.Height(aHeight: Single): TCustomContainerProps;
+begin
+  Result := Self;
+  FHeight := aHeight;
+end;
+
+class function TCustomContainerProps.New: TCustomContainerProps;
+begin
+  Result := TCustomContainerProps.Create;
+end;
+
+function TCustomContainerProps.BorderColor: TAlphaColor;
+begin
+Result := FStrokeColor;
+end;
+
+function TCustomContainerProps.BorderColor(aColor: TAlphaColor)
+  : TCustomContainerProps;
+begin
+  Result := Self;
+  FStrokeColor := aColor;
+end;
+
+function TCustomContainerProps.Border: Integer;
+begin
+Result := FStrokeThickness;
+end;
+
+function TCustomContainerProps.Border(aThickness: Integer)
+  : TCustomContainerProps;
+begin
+  Result := Self;
+  FStrokeThickness := aThickness;
+end;
+
+end.

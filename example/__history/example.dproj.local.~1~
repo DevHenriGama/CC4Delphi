@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/08/15 09:15:03.000.633,=C:\Users\darke\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/15 09:15:35.000.284,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\example\useExample.pas=C:\Users\darke\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/15 09:15:35.000.284,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\example\useExample.fmx=C:\Users\darke\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2023/08/15 09:15:37.000.475,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\example\Project1.dproj=C:\Users\darke\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/08/15 09:15:50.000.239,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\CustomCombo.ContainerProps.pas</Transaction>
+    <Transaction>2023/08/15 09:15:50.000.368,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\CustomCombo.Item.pas</Transaction>
+    <Transaction>2023/08/15 09:15:50.000.332,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\CustomCombo.Interfaces.pas</Transaction>
+    <Transaction>2023/08/15 09:15:50.000.214,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\CustomCombo.Container.pas</Transaction>
+    <Transaction>2023/08/15 09:15:50.000.307,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\CustomCombo.Instance.pas</Transaction>
+    <Transaction>2023/08/15 09:15:50.000.283,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\CustomCombo.Content.pas</Transaction>
+    <Transaction>2023/08/15 09:15:50.000.392,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\CustomCombo.pas</Transaction>
+    <Transaction>2023/08/15 10:28:41.000.222,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\example\Project1.dproj=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\example\example.dproj</Transaction>
+    <Transaction>2023/08/15 11:43:38.000.067,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\CustomCombo.Instance.pas=</Transaction>
+    <Transaction>2023/08/16 13:37:42.000.614,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.Consts.pas</Transaction>
+    <Transaction>2023/08/16 13:37:42.000.774,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.UpdatedStatus.pas</Transaction>
+    <Transaction>2023/08/16 13:37:42.000.588,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.Config.pas</Transaction>
+    <Transaction>2023/08/16 13:37:42.000.651,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.Export.pas</Transaction>
+    <Transaction>2023/08/16 13:37:42.000.678,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.Import.pas</Transaction>
+    <Transaction>2023/08/16 13:37:42.000.748,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.pas</Transaction>
+    <Transaction>2023/08/16 13:37:42.000.705,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.Language.pas</Transaction>
+    <Transaction>2023/08/16 13:37:42.000.802,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.Utils.pas</Transaction>
+    <Transaction>2023/08/16 13:44:21.000.957,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Request.Contract.pas</Transaction>
+    <Transaction>2023/08/16 13:44:21.000.843,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.pas</Transaction>
+    <Transaction>2023/08/16 13:44:21.000.911,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Request.Client.pas</Transaction>
+    <Transaction>2023/08/16 13:44:21.000.871,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Request.Adapter.Contract.pas</Transaction>
+    <Transaction>2023/08/16 13:44:23.000.735,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Request.FPHTTPClient.pas</Transaction>
+    <Transaction>2023/08/16 13:44:23.000.982,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Response.Indy.pas</Transaction>
+    <Transaction>2023/08/16 13:44:23.000.831,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Request.Synapse.pas</Transaction>
+    <Transaction>2023/08/16 13:44:23.000.794,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Request.NetHTTP.pas</Transaction>
+    <Transaction>2023/08/16 13:44:23.000.859,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Response.Client.pas</Transaction>
+    <Transaction>2023/08/16 13:44:23.000.937,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Response.FPHTTPClient.pas</Transaction>
+    <Transaction>2023/08/16 13:44:23.000.765,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Request.Indy.pas</Transaction>
+    <Transaction>2023/08/16 13:44:23.000.908,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Response.Contract.pas</Transaction>
+    <Transaction>2023/08/16 13:44:24.000.012,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Response.NetHTTP.pas</Transaction>
+    <Transaction>2023/08/16 13:44:24.000.086,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Utils.pas</Transaction>
+    <Transaction>2023/08/16 13:44:24.000.039,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Response.Synapse.pas</Transaction>
+    <Transaction>2023/08/16 13:54:53.000.253,=D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize-adapter-restrequest4delphi\src\DataSet.Serialize.Adapter.RESTRequest4D.pas</Transaction>
+    <Transaction>2023/08/16 14:20:47.182,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:47.266,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Request.Adapter.Contract.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:47.281,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Request.Client.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:47.295,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Request.Contract.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:47.308,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Request.FPHTTPClient.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:47.328,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Request.Indy.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:47.342,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Request.NetHTTP.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:47.356,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Request.Synapse.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:47.370,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Response.Client.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:47.383,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Response.Contract.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:47.396,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Response.FPHTTPClient.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:47.409,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Response.Indy.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:47.422,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Response.NetHTTP.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:47.436,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Response.Synapse.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:47.450,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\restrequest4delphi\src\RESTRequest4D.Utils.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:52.176,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize-adapter-restrequest4delphi\src\DataSet.Serialize.Adapter.RESTRequest4D.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:57.844,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.Config.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:57.890,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.Consts.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:57.904,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.Export.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:57.916,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.Import.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:57.931,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.Language.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:57.944,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:57.957,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.UpdatedStatus.pas=</Transaction>
+    <Transaction>2023/08/16 14:20:57.971,D:\Progamação\Projects\Delphi\Minhas Libarys\CustomCombo\modules\dataset-serialize\src\DataSet.Serialize.Utils.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
